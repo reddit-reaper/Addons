@@ -1,14 +1,20 @@
+v0.1.8-Beta 3
+-Added Bob to Real Debrid and Elysium to Trakt
+-Added Extract a ZipFile to maint menu(extract any zip to any location)
+-Added Install Apk to apk menu
+-Mod   Switched Zen to Elysium
+-Mod   Import/Export Save Data now includes superfavs, xml files.
+-Fixed Free/Used Space in System Info
+
 v0.1.8-Beta 2
 -Added Skin type to addon installer that extracts to special://home/
 -Fixed SkinSwap issue in addon installer
 -Fixed Install Method Issue
 -Fixed Meta/forks issue with build installs
--Added Orion API Key Backup
 
 -todo
  add  sections to builds menu
  add  minor updates
- add  youtube Playlist and channel scraper
 
 v0.1.8
 -Added 'Packs' to addon installer and back up options
