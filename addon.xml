@@ -1,5 +1,17 @@
 <addons>
-<addon id="plugin.program.reaperwizard" name="Reaper Wizard" version="0.1.7" provider-name="Reddit_Reaper">
+<addon id="repository.weriseco" name="Weriseco's Repository" version="1.0" provider-name="Weriseco">
+	<extension point="xbmc.addon.repository" name="Weriseco's Repository">
+		<info compressed="false">https://raw.githubusercontent.com/weriseco/Addons/master/addon.xml</info>
+		<checksum>https://raw.githubusercontent.com/weriseco/Addons/master/addon.xml.md5</checksum>
+		<datadir zip="true">https://github.com/weriseco/Addons/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Weriseco's Kodi Build Repository</summary>
+		<description>Reaper Builds</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.program.wrctvwizard" name="WRC TV Wizard" version="0.1.6" provider-name="weriseco">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,21 +20,9 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Reaper Wizard</summary>
-    <description lang="en">Reaper Wizard allows you to get access to the latest Reaper Custom Builds.</description>
+    <summary lang="en">WRC TV Wizard</summary>
+    <description lang="en">WRC TV Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
     <platform>all</platform>
   </extension>
-</addon>
-<addon id="repository.redditreaper" name="Reddit Reaper Repository" version="1.1" provider-name="Reddit Reaper">
-	<extension point="xbmc.addon.repository" name="Reddit Reaper Repository">
-		<info compressed="false">https://raw.githubusercontent.com/reddit-reaper/Addons/master/addon.xml</info>
-		<checksum>https://raw.githubusercontent.com/reddit-reaper/Addons/master/addon.xml.md5</checksum>
-		<datadir zip="true">https://github.com/reddit-reaper/Addons/raw/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Reddit Reaper's Kodi Build Repository</summary>
-		<description>Reaper Builds</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 </addons>
