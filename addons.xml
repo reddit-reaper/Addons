@@ -1,8 +1,8 @@
 <addons>
 <addon id="repository.weriseco" name="Weriseco's Repository" version="1.0" provider-name="Weriseco">
 	<extension point="xbmc.addon.repository" name="Weriseco's Repository">
-		<info compressed="false">https://raw.githubusercontent.com/weriseco/Addons/master/addon.xml</info>
-		<checksum>https://raw.githubusercontent.com/weriseco/Addons/master/addon.xml.md5</checksum>
+		<info compressed="false">https://raw.githubusercontent.com/weriseco/Addons/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/weriseco/Addons/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/weriseco/Addons/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
