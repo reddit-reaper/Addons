@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Weriseco's Kodi Build Repository</summary>
-		<description>Reaper Builds</description>
+		<description>Weriseco's Builds</description>
 		<platform>all</platform>
 	</extension>
 </addon>
