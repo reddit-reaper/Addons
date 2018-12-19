@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.wrctvwizard" name="WRC TV Wizard" version="0.1.6" provider-name="weriseco">
+<addon id="plugin.program.reaperwizard" name="Reaper Wizard" version="0.1.9" provider-name="Reddit_Reaper">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,8 +9,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">WRC TV Wizard</summary>
-    <description lang="en">WRC TV Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+    <summary lang="en">Reaper Wizard</summary>
+    <description lang="en">Reaper Wizard allows you to get access to the latest Reaper Custom Builds.</description>
     <platform>all</platform>
   </extension>
 </addon>
