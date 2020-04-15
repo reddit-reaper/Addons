@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.reaperwizard" name="Reaper Wizard" version="1.3.5" provider-name="Reddit_Reaper">
+<addon id="plugin.program.reaperwizard" name="Reaper Wizard" version="1.2.9" provider-name="Reddit_Reaper">
   <requires>>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -19,31 +19,32 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
         <news>
-			1.3.5
-			 - Add Fen
-			 - Add Shadow
-			 - Fix restoring saved data every boot
-			1.3.4
-			 - Fix bad indent
-			1.3.3
-			 - Fix Unicode characters in notification window
-			1.3.2
-			 - Fix build restore
-			1.3.1
-			 - Fix "Keep Login Info" menu        
-			1.3.0
-			 - Fix formatting of saved restore times
-			 - Fix local build zip being deleted on restore
-			 - Add YouTube API saving
-			 - Remove broken context menus
-			 - Fix repeating dialogs from shortcuts/favorites
-			 - Remove "Normal Install" option
-			 - Add "Logging Tools" menu
-			 - Add option to save guisettings.xml
-			 - Add TMDbHelper Fanart.tv saving
-			 - More fixes for OS X
-			 - Fix Seren Fanart.tv saving
-		</news>
+        1.2.9
+         - Fix NuMb3r5 cache clearing
+         - Fix hang during repo force check
+         - Fix logins being restored every startup
+         - Fix some file permission errors
+         - Fix OS X backup errors
+        1.2.7
+         - Add TheMovieDb Helper
+        1.2.6
+         - Fix Seren PM OAuth    
+        1.2.5
+         - Fix typo in debridit.py
+        1.2.4
+         - Cover more edge cases during binary detection
+        1.2.3
+         - Fix notification ID bug
+        1.2.2
+         - Add Seren PM OAuth
+         - Add AllDebrid spport for Gaia, Seren, ResolveURL, and URLResolver
+        1.2.1
+         - General bug fixes
+        1.2.0
+         - Silence save data notifications on startup
+         - Fix Addon Installer menu
+         - Convert addons.txt to JSON format
+        </news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
